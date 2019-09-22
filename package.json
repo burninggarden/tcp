@@ -1,0 +1,29 @@
+{
+  "name": "@burninggarden/tcp",
+  "description": "Your project description here",
+  "version": "0.0.1",
+  "private": false,
+  "author": "Burning Garden",
+  "homepage": "https://burninggarden.com",
+  "repository": "https://github.com/burninggarden/tcp",
+  "main": "./dist/src/index.js",
+  "dependencies": {
+    "@burninggarden/enums": "0.0.12",
+    "@burninggarden/errors": "0.0.4",
+    "@types/node": "10.9.4",
+    "typescript": "3.2.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "@typescript-eslint/parser": "^1.5.0",
+    "eslint": "^5.15.3",
+    "tap": "14.2.2"
+  },
+  "scripts": {
+    "install": "./bin/install",
+    "test": "./bin/test",
+    "lint": "./bin/lint",
+    "preversion": "./bin/preversion",
+    "postversion": "./bin/postversion"
+  }
+}
